@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="GreatFy is a Congolese startup providing innovative software solutions for educational management, including KelaPlus." />
+        <meta name="keywords" content="GreatFy, educational software, KelaPlus, Congolese startup, innovative solutions, Congo, Congolese, startup, software, educational management, KelaPlus ,etude, formation, management, education, management, formation, etudiants, étudiants, formation, études, étudiants, management, gestion, gestionnaire, gestionnaires, gestionnaire, gestionnaires, administration, administrateur, administrateurs, administrateur, administrateurs, administration, administrateurs, administrateurs, administrateur, administration, congo, congolais, congolaise, congolaises, congolaises, congolaises, congolaise, congolais, startup, startups, startup, startups, startup, startups, startup, startups, startup, startups, startup, startups, startup ,repubblique du congo,brazzaville,congo,brazzaville,brazzaville,brazzaville,brazzaville,brazzaville,brazzaville,brazzaville,brazzaville,brazzaville,brazzaville,brazzaville,jeune, ecole au Congo, jeunes écoles au Congo, école au Congo, écoles au Congo, école au Congo, écoles au Congo, ecole au Congo, ecoles au Congo, ecole au Congo, ecoles au Congo, jeunes écoles au Congo, jeune école au Congo ,contactez-nous, GreatFy contact ,     " />
+        <!-- icon android and ios and firefox -->
+        <link rel="icon" href="./img/favicon/16 x 16.svg">
+        <link rel="apple-touch-icon"  href="./img/favicon/16 x 16.svg">
+        <meta name="theme-color" content="#1c2e45">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="./img/favicon/16 x 16.svg">
+        
+    
+        <meta name="author" content="GreatFy" />
+    
+        <title>GreatFy - Innovating the Future</title>
+        <!-- CDN Tailwind CSS -->
+         <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Custom Stylesheet -->
+        <link rel="stylesheet" href="./style.css" />
+        <!-- AOS (Animate On Scroll) -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- Load AOS and Custom JS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- Custom JS -->
+        <script src="./index.js"></script>
+        <!-- Typewriter Effect -->
+        <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@latest/dist/core.js"></script>
+    
+       </head>
+<body>
+ 
+
+
+
+
+  <div class="navig">
+
+    <!-- Overlay for Initial Load -->
+    <div id="loader" class="fixed top-0 left-0 w-full h-full z-50 flex justify-center items-center backdrop-blur-lg  h-screen">
+      <h1 data-aos="fade-left" class="text-5xl text-center font-bold bg-gradient-to-r from-fuchsia-600 to-violet-400 bg-clip-text text-transparent">
+       <img src="./img/principal/150 x 150logo.svg" alt="GreatFy" class="w-full">
+      </h1>
+    </div>
+
+    <!-- mobile menu -->
+    <div id="moblie_nav" class="box fixed bottom-0 left-0 w-full h-80 p-8 z-20 bg-white rounded-t-3xl  ease-out transition-transform translate-y-0   transtion-all md:hidden">
+      <div class="box-content relative">
+        <button id="btn" class="animate-pulse absolute sha  -top-12 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20  gradient-bg rounded-full w-44 h-2.5 shadow-sm shadow-slate-600 opacity-65">
+        </button>
+        <ul class="flex flex-col  space-y-10 text-slate-400 md:hidden md:flex justify-start content-start items-baseline w-full">
+          <li class="border-b border-slate-400 pb-2 w-full  flex "><a href="./index.html"  aria-label="Accueil" class="hover:text-[#1c2e45] transition duration-300 flex justify-center items-center gap-2">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M12.71 2.29a1 1 0 0 0-1.42 0l-9 9a1 1 0 0 0 0 1.42A1 1 0 0 0 3 13h1v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7h1a1 1 0 0 0 1-1 1 1 0 0 0-.29-.71zM6 20v-9.59l6-6 6 6V20z"></path></svg>
+          Accueil</a>
+          </li>
+           <li class="border-b border-slate-400 pb-2 w-full  flex "><a aria-label="Services" href="./service.html" class="hover:text-[#1c2e45] transition duration-300 flex justify-center items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M4 11h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1zm1-6h4v4H5V5zm15-2h-6a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zm-1 6h-4V5h4v4zm-9 12a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6zm-5-6h4v4H5v-4zm13-1h-2v2h-2v2h2v2h2v-2h2v-2h-2z"></path></svg>
+            Services</a></li>
+            <li class="border-b border-slate-400 pb-2 w-full  flex "><a aria-label="À propos" href="./apropos.html" class="hover:text-[#1c2e45] transition duration-300 flex justify-center items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"></path><path d="M11 11h2v6h-2zm0-4h2v2h-2z"></path></svg>
+            À propos</a></li>
+
+            <li class="border-b border-slate-400 pb-2 w-full  flex  "><a aria-label="Contactez-nous" href="./contact.html" class="hover:text-[#1c2e45] transition duration-300 flex justify-center items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20 2H4c-1.103 0-2 .897-2 2v18l5.333-4H20c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm0 14H6.667L4 18V4h16v12z"></path><circle cx="15" cy="10" r="2"></circle><circle cx="9" cy="10" r="2"></circle></svg>
+              Contactez-nous</a></li>
+        </ul>
+      </div>
+ 
+    </div>
+
+    <!-- Navbar -->
+    <header>
+      <nav class="flex justify-center md:justify-between items-center backdrop-blur-md bg-white shadow-2xl p-6 fixed w-full z-30 h-20 shadow-neutral-400">
+        <a href="./" data-aos="fade-up" data-aos-duration="500" class="text-2xl w-full md:w-[100px] text-center font-bold bg-gradient-to-r from-fuchsia-600 to-violet-400 bg-clip-text text-transparent aos-init aos-animate">
+          <img src="./img/principal/logo.svg" alt="GreatFy" class="h-52 md:h-full w-full">
+        </a>
+        <ul class="flex space-x-8 text-slate-400 hidden md:flex">
+          <li data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="600" class="aos-init aos-animate"><a href="./index.html" class="hover:text-black transition duration-300" aria-label="Accueil">Accueil</a></li>
+          <li data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="700" class="aos-init aos-animate"><a href="./service.html" class="hover:text-black transition duration-300" aria-label="Services">Services</a></li>
+          <li data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="800" class="aos-init aos-animate"><a href="./apropos.html" class="hover:text-black transition duration-300" aria-label="À propos">À propos</a></li>
+          <li data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="900" class="aos-init aos-animate"><a href="./contact.html" class="hover:text-black transition duration-300" aria-label="Contactez-nous">Contactez-nous</a></li>
+        </ul>
+      </nav>
+    </header>
+</div>
+
+
+
+
+
+
+
+
+
+    <footer class="bg-gray-800 text-white ">
+        <div class="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24">
+          <div class="text-center">
+            <h2 class="text-3xl font-extrabold sm:text-5xl  mt-12">Explorez Nos Services</h2>
+      
+            <p class="mx-auto mt-4 max-w-sm text-gray-400">
+              Nous offrons une gamme de services pour vous aider à atteindre vos objectifs. Découvrez comment nous pouvons vous aider aujourd'hui.
+            </p>
+      
+            <br>
+            <div class="btn">
+                <!-- Contact Button -->
+                <a class="group relative inline-flex items-center overflow-hidden bg-gradient-to-r from-fuchsia-600 to-violet-400 rounded-3xl border px-8 py-3 text-[#1c2e45] focus:outline-none focus:ring active:text-indigo-500 hover:text-white" href="#contact">
+                  <span class="absolute -end-full transition-all group-hover:end-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 0.782);">
+                      <path d="M17.707 12.293a.999.999 0 0 0-1.414 0l-1.594 1.594c-.739-.22-2.118-.72-2.992-1.594s-1.374-2.253-1.594-2.992l1.594-1.594a.999.999 0 0 0 0-1.414l-4-4a.999.999 0 0 0-1.414 0L3.581 5.005c-.38.38-.594.902-.586 1.435.023 1.424.4 6.37 4.298 10.268s8.844 4.274 10.269 4.298h.028c.528 0 1.027-.208 1.405-.586l2.712-2.712a.999.999 0 0 0 0-1.414l-4-4.001zm-.127 6.712c-1.248-.021-5.518-.356-8.873-3.712-3.366-3.366-3.692-7.651-3.712-8.874L7 4.414 9.586 7 8.293 8.293a1 1 0 0 0-.272.912c.024.115.611 2.842 2.271 4.502s4.387 2.247 4.502 2.271a.991.991 0 0 0 .912-.271L17 14.414 19.586 17l-2.006 2.005z"></path>
+                    </svg>
+                  </span>
+                  <span class="text-sm font-medium text-slate-100 capitalize transition-all group-hover:me-4">
+                    contactez-nous
+                  </span>
+                </a>
+              </div>
+          </div>
+
+
+
+
+
+              
+<div class="min-h-screen   py-6 flex flex-col justify-center sm:py-12">
+  <div class="relative py-3 sm:max-w-xl sm:mx-auto">
+      <div
+          class="absolute inset-0  gradient-bg shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
+      </div>
+      <div class="text-white relative px-4 py-10 backdrop-blur-2xl shadow-lg sm:rounded-3xl sm:p-20">
+
+          <div class="text-center pb-6">
+              <h1 class="text-3xl">Contactez-Nous</h1>
+
+              <p class="text-gray-300">
+                   Laissez nous un message et nous vous répondrons dans les plus brefs délais
+              </p>
+          </div>
+
+          <form>
+
+              <input
+                      class="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      type="text" placeholder="Name" name="name">
+
+              <input
+                      class="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      type="email" placeholder="Email" name="email">
+
+              <input
+                      class="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      type="text" placeholder="Subject" name="_subject">
+
+              <textarea
+                      class="shadow mb-4 min-h-0 appearance-none border rounded h-64 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      type="text" placeholder="Type your message here..." name="message" style="height: 121px;"></textarea>
+
+              <div class="flex justify-between">
+                <input class="shadow bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit" value="Send ➤">
+                  <input
+                      class="shadow bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                      type="reset">
+              </div>
+
+          </form>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+      
+          <div class="mt-16 border-t border-gray-700 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-24">
+            <ul class="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
+              <li>
+                <a href="/terms" class="text-gray-400 transition hover:opacity-75"> Terms & Conditions </a>
+              </li>
+      
+              <li>
+                <a href="/privacy" class="text-gray-400 transition hover:opacity-75"> Privacy Policy </a>
+              </li>
+      
+              <li>
+                <a href="/cookies" class="text-gray-400 transition hover:opacity-75"> Cookies </a>
+              </li>
+            </ul>
+      
+            <ul class="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end">
+              <li>
+                <a
+                  href="https://www.facebook.com/yourpage"
+                  rel="noreferrer"
+                  target="_blank"
+                  class="text-gray-400 transition hover:opacity-75"
+                >
+                  <span class="sr-only">Facebook</span>
+                  <!-- Facebook Icon -->
+                </a>
+              </li>
+      
+              <li>
+                <a
+                  href="https://www.instagram.com/yourprofile"
+                  rel="noreferrer"
+                  target="_blank"
+                  class="text-gray-400 transition hover:opacity-75"
+                >
+                  <span class="sr-only">Instagram</span>
+                  <!-- Instagram Icon -->
+                </a>
+              </li>
+      
+              <li>
+                <a
+                  href="https://twitter.com/yourprofile"
+                  rel="noreferrer"
+                  target="_blank"
+                  class="text-gray-400 transition hover:opacity-75"
+                >
+                  <span class="sr-only">Twitter</span>
+                  <!-- Twitter Icon -->
+                </a>
+              </li>
+      
+              <li>
+                <a
+                  href="https://github.com/yourprofile"
+                  rel="noreferrer"
+                  target="_blank"
+                  class="text-gray-400 transition hover:opacity-75"
+                >
+                  <span class="sr-only">GitHub</span>
+                  <!-- GitHub Icon -->
+                </a>
+              </li>
+      
+              <li>
+                <a
+                  href="https://dribbble.com/yourprofile"
+                  rel="noreferrer"
+                  target="_blank"
+                  class="text-gray-400 transition hover:opacity-75"
+                >
+                  <span class="sr-only">Dribbble</span>
+                  <!-- Dribbble Icon -->
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+      
+
+
+</body>
+</html>
+
+
+
+
+
+
+
