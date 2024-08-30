@@ -44,7 +44,7 @@ const slideFond = () => {
     slides[currentSlide].classList.add("opacity-100");
   }
 
-  setInterval(nextSlide, 3000); // Change l'image toutes les 3 secondes
+  setInterval(nextSlide, 6000); // Change l'image toutes les 3 secondes
 };
  
 
