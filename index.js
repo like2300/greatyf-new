@@ -13,8 +13,8 @@ const openNav = () => {
 
   // Toggle le menu mobile lorsque l'utilisateur clique sur le bouton
   btn.addEventListener("click", () => {
-    mobileNav.classList.toggle("translate-y-80");
-    mobileNav.classList.toggle("translate-y-0");
+    mobileNav.classList.add("translate-y-80"); // Cache le menu
+    mobileNav.classList.remove("translate-y-0"); // Assure que le menu est fermé
   });
 
   // Fermer le menu mobile si l'utilisateur clique en dehors du menu ou du bouton
@@ -46,23 +46,12 @@ const slideFond = () => {
 
   setInterval(nextSlide, 3000); // Change l'image toutes les 3 secondes
 };
-
-// Initialize Typewriter effect
-const effect_typewriter = () => {
-  const app = document.getElementById("typing-effect");
-  const typewriter = new Typewriter(app, {
-    loop: true,
-    delay: 500, // Speed of typing effect
-    cursor: "|", // Cursor symbol
-  });
-
-  typewriter.typeString("Bienvenue sur GreatFy").start();
-};
+ 
 
 // config tailwind
 document.addEventListener("DOMContentLoaded", function () {
   AOS.init();
-  effect_typewriter();
+ 
   slideFond();
   openNav();  // Appel de la fonction pour la navigation mobile
   chargement(); // S'assurer que la fonction de chargement est appelée
