@@ -1,0 +1,20 @@
+# robots.txt pour GreatFy
+
+# Bloquer tous les robots d'accéder aux fichiers confidentiels ou non nécessaires
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /config/
+Disallow: /cgi-bin/
+Disallow: /scripts/
+
+# Bloquer l'accès à certains fichiers spécifiques
+Disallow: /private-data.txt
+Disallow: /hidden/
+
+# Autoriser l'accès à toutes les autres pages
+Allow: /
+
+# Spécifier l'emplacement du sitemap pour aider les moteurs de recherche à explorer le site plus efficacement
+Sitemap: https://like2300.github.io/greatyf-new/sitemap.xml
